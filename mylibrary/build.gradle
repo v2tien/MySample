@@ -15,11 +15,11 @@ ext {
     siteUrl = 'https://github.com/v2tien/MySample'
     gitUrl = 'https://github.com/v2tien/MySample.git'
 
-    libraryVersion = '0.1'
+    libraryVersion = '0.3'
 
-    developerId = 'vutien'
-    developerName = 'v2tien'
-    developerEmail = 'v2tien@gmail.com'
+    developerId = 'v2tien93'
+    developerName = 'v2tien93'
+    developerEmail = 'v2tien93@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -119,7 +119,7 @@ bintray {
     pkg {
         repo = bintrayRepo
         name = bintrayName
-        userOrg = "vutien"
+        userOrg = "v2tien93"
         desc = libraryDescription
         websiteUrl = siteUrl
         vcsUrl = gitUrl
