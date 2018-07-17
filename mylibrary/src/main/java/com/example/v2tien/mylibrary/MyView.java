@@ -1,13 +1,12 @@
 package com.example.v2tien.mylibrary;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.constraint.ConstraintLayout;
 import android.util.AttributeSet;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class MyView extends ConstraintLayout implements BaseAction {
+public class MyView extends LinearLayout implements BaseAction {
     private TextView textView;
     private EditText editText;
 
@@ -16,12 +15,12 @@ public class MyView extends ConstraintLayout implements BaseAction {
         initView(context);
     }
 
-    public MyView(Context context, @Nullable AttributeSet attrs) {
+    public MyView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initView(context);
     }
 
-    public MyView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MyView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView(context);
     }
